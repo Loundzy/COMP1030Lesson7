@@ -35,6 +35,7 @@
             this.txtX = new System.Windows.Forms.TextBox();
             this.btnAdd = new System.Windows.Forms.Button();
             this.lblSum = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnLoop1
@@ -99,11 +100,21 @@
             this.lblSum.TabIndex = 6;
             this.lblSum.Text = "Click to Add #\'s";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(349, 378);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(183, 17);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "this project is now on github";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(778, 477);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lblSum);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.txtX);
@@ -127,6 +138,7 @@
         private System.Windows.Forms.TextBox txtX;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Label lblSum;
+        private System.Windows.Forms.Label label1;
     }
 }
 
